@@ -11,8 +11,29 @@ use app\model\Account;
  */
 class AccountCtrl
 {
+    /**
+     * 列出账户列表信息
+     */
     public function accountList()
     {
-        return json(Account::get(0));
+        return json(Account::get(1));
+    }
+
+    /**
+     * 创建
+     */
+    public function create()
+    {
+
+    }
+
+    public function remove()
+    {
+
+    }
+
+    public function resetPassword()
+    {
+
     }
 }
