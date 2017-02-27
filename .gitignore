@@ -2,3 +2,5 @@
 */node_modules/*
 app.html.vue/dist/*
 ÎÄµµ/*.pdb
+app.*/*
+app.html.php/*
