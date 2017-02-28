@@ -32,3 +32,10 @@ Modern browsers and Internet Explorer 10+.
 
 ### License
 [MIT](http://opensource.org/licenses/MIT)
+
+
+// axios echarts nprogress vue vuex
+// autoprefixer axios-mock-adapter babel-core babel-loader babel-plugin-transform-runtime babel-polyfill babel-preset-es2015 babel-preset-stage-2 babel-register
+// chalk connect-history-api-fallback css-loader element-ui eventsource-polyfill express extract-text-webpack-plugin file-loader font-awesome function-bind
+// html-webpack-plugin http-proxy-middleware json-loader mockjs node-sass opn ora sass-loader semver shelljs url-loader vue-loader vue-router vue-style-loader
+// vue-template-compiler webpack webpack-dev-middleware webpack-hot-middleware webpack-merge
