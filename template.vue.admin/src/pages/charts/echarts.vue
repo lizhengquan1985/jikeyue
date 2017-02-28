@@ -195,7 +195,7 @@
         height: 400px;
         float: left;
     }*/
-    
+
     .el-col {
         padding: 30px 20px;
     }

@@ -10,7 +10,7 @@ var env = config.build.env
 
 var webpackConfig = merge(baseWebpackConfig, {
     module: {
-        loaders: utils.styleLoaders({sourceMap: config.build.productionSourceMap, extract: true})
+        rules: utils.styleLoaders({sourceMap: config.build.productionSourceMap, extract: true})
     },
     devtool: config.build.productionSourceMap ? '#source-map' : false,
     output: {
@@ -68,16 +68,16 @@ var webpackConfig = merge(baseWebpackConfig, {
             name: 'manifest',
             chunks: ['vendor']
         }),
-        new webpack.LoaderOptionsPlugin({
-            options: {
-                vue: {
-                    loaders: utils.cssLoaders({
-                        sourceMap: config.build.productionSourceMap,
-                        extract: true
-                    })
-                }
-            }
-        })
+        // new webpack.LoaderOptionsPlugin({
+        //     options: {
+        //         vue: {
+        //             loaders: utils.cssLoaders({
+        //                 sourceMap: config.build.productionSourceMap,
+        //                 extract: true
+        //             })
+        //         }
+        //     }
+        // })
     ]
 })
 
