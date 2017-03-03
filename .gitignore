@@ -3,4 +3,6 @@
 app.html.vue/dist/*
 ÎÄµµ/*.pdb
 app.*/*
-app.html.php/*
+app.html.vue/*
+backend.php/*
+backend.php/*/*
