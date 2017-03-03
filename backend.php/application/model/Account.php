@@ -11,4 +11,6 @@ use think\Model;
 class Account extends Model
 {
     protected $table = 't_account';
+    protected $autoWriteTimestamp = 'datetime';
+
 }
